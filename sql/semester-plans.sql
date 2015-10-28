@@ -7,10 +7,10 @@ CREATE TABLE IF NOT EXISTS tblSemesterPlans(
 
 INSERT INTO tblSemesterPlans VALUES
     (1, '2012-2013', 'Fall', 0),
-    (1, '2012-2013', 'Spring', 1),
+    (1, '2012-2013', 'Spring', 2),
     (1, '2013-2014', 'Fall', 0),
-    (1, '2013-2014', 'Spring', 1),
+    (1, '2013-2014', 'Spring', 2),
     (1, '2014-2015', 'Fall', 0),
-    (1, '2014-2015', 'Spring', 1),
+    (1, '2014-2015', 'Spring', 2),
     (1, '2015-2016', 'Fall', 0),
-    (1, '2015-2016', 'Spring', 1);
+    (1, '2015-2016', 'Spring', 2);

@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS tblSemesterPlanCourses(
     fldDisplayOrder tinyint(2) DEFAULT NULL,
     PRIMARY KEY(fnkPlanId, fnkYear, fnkTerm, fnkCourseId));
 
-INSERT INTO tblSemesterPlansCourses VALUES
+INSERT INTO tblSemesterPlanCourses VALUES
     (1, '2012-2013', 'Fall', 381, 0),
     (1, '2012-2013', 'Fall', 383, 1),
     (1, '2012-2013', 'Fall', 1271, 2),
@@ -30,18 +30,18 @@ INSERT INTO tblSemesterPlansCourses VALUES
     (1, '2014-2015', 'Fall', 393, 0),
     (1, '2014-2015', 'Fall', 394, 1),
     (1, '2014-2015', 'Fall', 671, 2),
-    (1, '2014-2015', 'Fall', 145, 3),
+    (1, '2014-2015', 'Fall', 660, 3),
     (1, '2014-2015', 'Fall', 1911, 4),
     (1, '2014-2015', 'Spring', 2229, 0),
     (1, '2014-2015', 'Spring', 2230, 1),
     (1, '2014-2015', 'Spring', 2231, 2),
     (1, '2014-2015', 'Spring', 2232, 3),
     (1, '2014-2015', 'Spring', 1924, 4),
-    (1, '2014-2015', 'Fall', 396, 0),
+    (1, '2015-2016', 'Fall', 396, 0),
     (1, '2015-2016', 'Fall', 398, 1),
     (1, '2015-2016', 'Fall', 402, 2),
     (1, '2015-2016', 'Fall', 687, 3),
-    (1, '2015-2016', 'Fall', 131, 4),
+    (1, '2015-2016', 'Fall', 681, 4),
     (1, '2015-2016', 'Spring', 2233, 0),
     (1, '2015-2016', 'Spring', 2234, 1),
     (1, '2015-2016', 'Spring', 2120, 2),
