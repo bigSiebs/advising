@@ -1,4 +1,8 @@
 
+footer {
+    clear: both;
+}
+
 /* ids, classes */
 #records {
     width: 500px;
@@ -20,4 +24,18 @@
     overflow: auto;
     float: left;
     margin: 0 1em;
+}
+
+#four-year-plan div {
+    float: left;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+#four-year-plan section {
+    clear: both;
+}
+
+.clear_left {
+    clear: left;
 }
