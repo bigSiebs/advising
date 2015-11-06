@@ -15,6 +15,12 @@
         } else {
             print '<li><a href="four-year-plan.php">My Four Year Plan</a></li>';
         }
+        
+        if ($path_parts['filename'] == "form") {
+            print '<li class="activePage">Add Your Plan</li>';
+        } else {
+            print '<li><a href="form.php">Add Your Plan</a></li>';
+        }
         ?>
     </ol>
 </nav>

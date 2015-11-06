@@ -20,6 +20,7 @@ function securityCheck($path_parts, $yourURL, $form = false) {
     $whiteListPages = array();
     $whiteListPages[] = "tables.php";
     $whiteListPages[] = "four-year-plan.php";
+    $whiteListPages[] = "form.php";
     
     $whiteListFolders[] = "/cs148/advising";
     $whiteListFolders[] = "/cs148develop/advising";
